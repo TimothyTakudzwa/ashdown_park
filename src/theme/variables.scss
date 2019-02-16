@@ -5,7 +5,18 @@
 // roboto, and noto sans fonts
 $font-path: "../assets/fonts";
 
-
+@font-face {
+  font-family: 'My Cursive';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/alsscrp.ttf');
+}
+@font-face {
+  font-family: 'Cursive2';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/BLKCHCRY.ttf');
+}
 // The app direction is used to include
 // rtl styles in your app. For more info, please see:
 // http://ionicframework.com/docs/theming/rtl-support/

@@ -1,32 +1,23 @@
+<ion-header> </ion-header>
 
-<ion-header>
- 
-</ion-header>
-
-<ion-content padding
-  style="background-image: url(https://images.pexels.com/photos/1156684/pexels-photo-1156684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
-  <ion-icon name="logo-angular" style="font-size:100px; margin-top: 10%; margin-left:40%" text-center></ion-icon>
-  <h1 text-center style="font-size:48px; font-weight: 100; ">
+<ion-content padding class="background-image">
+  <ion-icon name="logo-angular" text-center class="ion-icon"></ion-icon>
+  <h1 text-center>
     Ashdown Park
   </h1>
   <br /><br />
-  <ion-item style="background-color:white; color:black">
-    <ion-label style="color:darkslategray">Username</ion-label>
-    <ion-input></ion-input>
-  </ion-item> <br /><br />
-  <ion-item style="background-color:white; color:black">
-    <ion-label style="color:darkslategray">Password</ion-label>
+  <ion-item class="ion-item">
+    <ion-label>Username</ion-label>
     <ion-input></ion-input>
   </ion-item>
-<br> <br>
+  <br /><br />
+  <ion-item class="ion-item">
+    <ion-label>Password</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <br />
+  <br />
   <button ion-button block outline (click)="login()">Login</button>
-  <br>
-  <h5 text-center style="font-weight:100">
-    Forgot Password | <span >Create Account</span>
-  </h5>
-
-
-
+  <br />
+  <h5 text-center>Forgot Password | <span>Create Account</span></h5>
 </ion-content>
-
-

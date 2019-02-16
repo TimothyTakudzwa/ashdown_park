@@ -1,12 +1,5 @@
 page-home {
-    @font-face {
-        font-family: AdineKirnberg;
-        src: url(../../../www/assets/fonts/AdineKirnberg.ttf) format("ttf");
-        font-weight: 200
-        }
-        body {
-            font-family: AdineKirnberg !important;
-        }
+   
     .pulsating-circle {
         position: absolute;
         left: 50%;
@@ -63,5 +56,25 @@ page-home {
         100% {
           transform: scale(.8);
         }
+      }
+      h3{
+        font-family:My Cursive; font-size:100px
+      }
+      .row{
+        height:50px
+      }
+      .icon-div{
+        height:100%;
+        width: 20%
+      }
+      .icon{
+        margin-left:20%; 
+        font-size:50px
+      }
+      .text-div{
+        height:100%; background-color:white; width: 20%
+      }
+      .text{
+        color:black; top:50%; font-family: Avatarock
       }
 }

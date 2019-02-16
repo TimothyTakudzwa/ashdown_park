@@ -1,51 +1,49 @@
-
-
-<ion-content padding style="background-image: url(https://i.pinimg.com/originals/0f/4c/f0/0f4cf070cccc3f1636181799f2110429.jpg)" text-center>
-  <h3 style="font-family:My Cursive; font-size:100px">Welcome</h3>
+<ion-content padding class="background-image" text-center>
+  <h3>Welcome</h3>
   <p>
     The Ashdown Park mobile Application brings the residents of Ashdown Park together to help each other in cases of trouble.
     The Application can be used for the below purposes </p>
-  <br><div class="row" style="height:50px" (click)="viewAlerts()">
-    <div style="height:100%;width: 20%">
-      <ion-icon name="clipboard" style="margin-left:20%; font-size:50px"></ion-icon>
+  <br><div class="row" (click)="viewAlerts()">
+    <div class="icon-div">
+      <ion-icon name="clipboard" class="ion-icon"></ion-icon>
     </div>
-    <div class="col" style="height:100%; background-color:white; width: 20%">
-      <h1 style="color:black; top:50%; font-family: Cursive2">View Created Alerts</h1>
+    <div class="col text-div">
+      <h1 class="text">View Created Alerts</h1>
     </div>
   </div>
   <br><br>
-  <div class="row" style="height:50px" (click)="chat()">
-    <div style="height:100%;width: 20%">
-      <ion-icon name="logo-whatsapp" style="margin-left:20%; font-size:50px"></ion-icon>
+  <div class="row" (click)="chat()">
+    <div class="icon-div">
+      <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
     </div>
-    <div class="col" style="height:100%; background-color:white; width: 20%">
-    <h1 style="color:black; top:50%; font-family: Cursive2">Talk to your Neighbours</h1>
+    <div class="col text-div">
+      <h1 class="text">Talk to Neighbours</h1>
     </div>
   </div><br><br>
-  <div class="row" style="height:50px" (click)="emergency()">
-    <div style="height:100%;  width: 20%">
-      <ion-icon name="keypad" style="margin-left:20%; font-size:50px"></ion-icon>
+  <div class="row" (click)="emergency()">
+    <div class="icon-div">
+      <ion-icon name="keypad" class="icon"></ion-icon>
     </div>
-    <div class="col" style="height:100%; background-color:white; width: 20%">
-      <h1 style="color:black; top:50%; font-family: Cursive2">Emergency Numbers</h1>
-    </div>
-  </div>
-  <br><br>
-  <div class="row" style="height:50px" (click)="notice()">
-    <div style="height:100%;  width: 20%">
-      <ion-icon name="megaphone" style="margin-left:20%; font-size:50px"></ion-icon>
-    </div>
-    <div class="col" style="height:100%; background-color:white; width: 20%">
-      <h1 style="color:black; top:50%; font-family: Cursive2">Notice Board</h1>
+    <div class="col text-div">
+      <h1 class="text">Emergency Numbers</h1>
     </div>
   </div>
   <br><br>
-  <div class="row" style="height:50px">
-    <div style="height:100%;  width: 20%">
-      <ion-icon name="person" style="margin-left:20%; font-size:50px"></ion-icon>
+  <div class="row" (click)="notice()">
+    <div class="icon-div">
+      <ion-icon name="megaphone" class="icon"></ion-icon>
     </div>
-    <div class="col" style="height:100%; background-color:white; width: 20%">
-      <h1 style="color:black; top:50%; font-family: Cursive2">My Profile</h1>
+    <div class="col text-div">
+      <h1 class="text">Notice Board</h1>
+    </div>
+  </div>
+  <br><br>
+  <div class="row" (click)="profile()">
+    <div class="icon-div">
+      <ion-icon name="person" class="icon"></ion-icon>
+    </div>
+    <div class="col text-div">
+      <h1 class="text">My Profile</h1>
     </div>
   </div>
   <br><h2 text-center>Panic Button!!!</h2><br><br>
